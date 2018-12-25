@@ -1,0 +1,2 @@
+document.body.innerHTML = document.body.innerHTML.replace(/Aggiungi al carrello/g,"Compra per finta"); 
+document.body.innerHTML = document.body.innerHTML.replace(/Add to Cart/g,"Add to Cart (fake mode)"); 

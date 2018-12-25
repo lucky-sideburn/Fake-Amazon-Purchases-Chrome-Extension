@@ -1,3 +1,14 @@
-# Create a Chrome extension to modify a website's HTML or CSS
+# Fake Amazon Purchases (Chrome Extension)
+### Pretend to buy on Amazon. 
+### You have the same feeling of pleasure after buying but without spending money.
 
-See post: https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css/
+## Installation
+
+1. Clone this repo
+2. Open Chrome and go to chrome://extensions
+3. Push "Load Unpacked" button
+4. Load this repo
+
+## Usage
+
+When this extension is enabled on your broweser go to Amazon.com and be shopaolic!

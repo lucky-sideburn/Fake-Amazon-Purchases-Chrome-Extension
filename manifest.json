@@ -1,14 +1,19 @@
 {
   "manifest_version": 2,
-
-  "name": "Modify CSS and HTML",
+  "name": "Fake Purchases",
   "version": "0.1.0",
-  "description": "Lateral blog post demo extension",
-
-  "content_scripts": [{
-    "css": ["styles.css"],
-    "js": ["content.js"],
-    "matches": ["https://blog.lateral.io/*"]
-  }]
-
+  "description": "Pretend to buy on Amazon. You have the same feeling of pleasure after buying but without spending money.",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://www.amazon.com/*amazon_checkout_it*","https://www.amazon.com/*signin*"]
+    },
+    {
+      "js": ["replace_carrello.js"],
+      "matches": ["https://www.amazon.com/*"]
+    }
+  ],
+  "permissions": [
+    "tabs", "http://wwww.amazon.com/*"
+  ]
 }
