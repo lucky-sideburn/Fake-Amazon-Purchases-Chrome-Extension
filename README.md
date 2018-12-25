@@ -1,6 +1,6 @@
 # Fake Amazon Purchases (Chrome Extension)
+### Let's people to have the same feeling of pleasure after buying things on Amazon but without spending money.
 ### Pretend to buy on Amazon (it works only for amazon.com)
-### You have the same feeling of pleasure after buying but without spending money.
 
 ## Installation
 
