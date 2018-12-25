@@ -1,5 +1,5 @@
 # Fake Amazon Purchases (Chrome Extension)
-### Pretend to buy on Amazon. 
+### Pretend to buy on Amazon (it works only for amazon.com)
 ### You have the same feeling of pleasure after buying but without spending money.
 
 ## Installation
@@ -11,4 +11,4 @@
 
 ## Usage
 
-When this extension is enabled on your broweser go to Amazon.com and be shopaolic!
+When this extension is enabled on your broweser go to Amazon.com and be shopaolic! It works only with amazon.com, no other domains.
